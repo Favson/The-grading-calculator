@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body{
+    justify-content: center;
+    font-family: 'Nova Square', sans-serif;
+    align-items: center;
+    padding: 30px;
+}
+#firstDiv {
+    background-image: url(pexels-rdne-stock-project-7821685.jpg);
+    background-size: cover;
+    height: 85vh;
+    filter: brightness(.5);
+}
+
+.showDiv:nth-child(1){
+    color: white;
+    text-decoration: underline red;
+}
+.showDiv:nth-child(2){
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 992px) {
+    #firstDiv {
+        height: 40vh;
+    }
+}
